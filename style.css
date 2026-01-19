@@ -26,3 +26,23 @@ a{
 a:hover{
     color: orange;
 }
+/* HEADER */
+header {
+    position: relative;
+    padding: 2rem;
+}
+
+.navbar{
+    width: 100px;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
